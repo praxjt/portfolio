@@ -865,9 +865,7 @@ a{
     /* .maincontent{
         justify-content:flex-start ;
     } */
-     section{
-        min-height: 30vh;
-     }
+
     #logo{
         padding-left: 15px;
     }
