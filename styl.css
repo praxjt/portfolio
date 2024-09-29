@@ -195,6 +195,7 @@ a{
    
    
 }
+
 .highlight {
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     -webkit-background-clip: text; /* For Safari */
@@ -206,9 +207,9 @@ a{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    padding: 50px;
     min-height: 100vh;
     opacity: 1; 
+    padding: 50px;
     transition: opacity 0.5s ease-in-out;
     text-align: center;
     /* margin-top: 70px; */
@@ -261,7 +262,6 @@ a{
 .button{
     display: flex;
     flex-direction: row;
-
 }
 .contact{
     height: 30px;
@@ -865,7 +865,6 @@ a{
     /* .maincontent{
         justify-content:flex-start ;
     } */
- 
     #logo{
         padding-left: 15px;
     }
@@ -925,8 +924,7 @@ a{
     .content{
        display: none;
     }
-    
-    
+
     .icon{
         display: flex;
         align-self: center;
