@@ -37,17 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
    navLinks.forEach(link => {
        link.addEventListener("click", (e) => {
-           e.preventDefault(); // Prevent default anchor click behavior
+           e.preventDefault();
            
-           // Get the target section
            const targetId = e.target.getAttribute("href");
            const targetSection = document.querySelector(targetId);
 
-           // Hide all sections and show the target section
            sections.forEach(section => {
                if (section === targetSection) {
                    section.classList.remove("hidden");
-                   section.scrollIntoView({ behavior: "smooth" }); // Smooth scrolling
+                   section.scrollIntoView({ behavior: "smooth" }); 
                    setTimeout(() => {
                      section.scrollIntoView({ behavior: "smooth" });
                  }, 100);  }  else {
