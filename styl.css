@@ -198,10 +198,10 @@ a{
 
 .highlight {
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    -webkit-background-clip: text; /* For Safari */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    background-clip: text; /* Clip the background to the text */
-    color: transparent; /* Make the text color transparent */
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
   }
   section {
     display: flex; 
@@ -360,14 +360,14 @@ a{
     margin-top: 10px;
 } */
 .read-more-btn {
-    /* Absolute positioning within .about1 */
-    bottom: 10px; /* 10px from the bottom */
-    margin-left:12px ; /* 10px from the left */
-    padding: 10px 20px; /* Button padding */
+    
+    bottom: 10px; 
+    margin-left:12px ; 
+    padding: 10px 20px; 
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    color: #fff; /* Button text color */
+    color: #fff;
     border: none;
-    border-radius: 5px; /* Optional button rounding */
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease;
   transform: scale(1); 
@@ -450,7 +450,7 @@ a{
     gap: 2rem;
     border-radius: 6px;
     padding: 00px 10px 0px 10px ;
-    border: 5px solid transparent; /* Default border, hidden initially */
+    border: 5px solid transparent; 
     transition: all 0.3s ease; 
   
 }
@@ -484,8 +484,8 @@ a{
     background-color: black;
 }
 .html:hover {
-    border-color: orangered; /* Border turns orange-red */
-    background-color: black; /* Background turns black */
+    border-color: orangered; 
+    background-color: black;
 }
 
 
@@ -494,9 +494,9 @@ a{
     font-size: 25px;
     text-align: center;
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    -webkit-background-clip: text; /* For Safari */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
     color: transparent; 
     
     
@@ -515,7 +515,7 @@ a{
     gap: 2rem;
     border-radius: 6px;
     padding: 00px 10px 0px 10px ;
-    border: 5px solid transparent; /* Default border, hidden initially */
+    border: 5px solid transparent;
     transition: all 0.3s ease;
 }
 #cs{
@@ -531,8 +531,8 @@ a{
     background-color: black;
 }
 .css:hover {
-    border-color: orangered; /* Border turns orange-red */
-    background-color: black; /* Background turns black */
+    border-color: orangered;
+    background-color: black; 
 }
 
 .db{
@@ -558,7 +558,7 @@ a{
     gap: 2rem;
     border-radius: 6px;
     padding: 00px 10px 0px 10px ;
-    border: 5px solid transparent; /* Default border, hidden initially */
+    border: 5px solid transparent; 
     transition: all 0.3s ease; 
 }
 
@@ -574,8 +574,8 @@ a{
     background-color: black;
 }
 .django:hover {
-    border-color: orangered; /* Border turns orange-red */
-    background-color: black; /* Background turns black */
+    border-color: orangered;
+    background-color: black; 
 }
 .perform{
     color: #ffffff;
@@ -612,9 +612,9 @@ a{
     font-size: 25px;
 
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    -webkit-background-clip: text; /* For Safari */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
     color: transparent;
  }  
     
@@ -738,15 +738,14 @@ a{
 }
 .contact-head{
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    -webkit-background-clip: text; /* For Safari */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    background-clip: text; /*
-     Clip the background to the text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    
     color: transparent; 
    
     
 }
-/* Style for the form */
 .contact-form-main{
     display: flex;
     flex-direction: column;
@@ -760,29 +759,28 @@ a{
     top:4rem;
 }
 
-/* Style for input fields */
 .input-field {
     padding: 10px;
     min-height: 60px;
     min-width: 20rem;
     /* width: 120px; */
     border: 2px solid orangered; 
-    border-radius: 5px; /* Rounded corners for inputs */
-    background-color: black; /* Black background for inputs */
-    color: white; /* Text color inside inputs */
+    border-radius: 5px; 
+    background-color: black; 
+    color: white;
 }
 
-/* Style for the send button */
+
 .send-button {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     width: 150px;
     margin-left: 1px;
     padding: 10px 10px 10px 10px ;
-    color: white; /* Button text color */
-    border: none; /* No border */
-    border-radius: 6px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    color: white; 
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
      
 }
 
@@ -869,7 +867,7 @@ a{
         padding-left: 15px;
     }
     .sidebar{
-       background-color: rgba(128, 128, 128, 0.5); /* Medium gray with 70% opacity */
+       background-color: rgba(128, 128, 128, 0.5); 
 
         color: whi;
         height: 10rem;
